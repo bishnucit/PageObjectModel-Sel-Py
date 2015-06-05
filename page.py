@@ -1,6 +1,6 @@
 import re
 
-
+#all the common actions are logged in this file.
 
 class Page(object):
     '''
