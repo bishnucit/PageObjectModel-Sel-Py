@@ -49,4 +49,5 @@ class Page(object):
     
     def refresh(self,timeout=80000):
         self.selenium.refresh()
+        #refreshes the page         
         self.selenium.wait_for_page_to_load(timeout)
