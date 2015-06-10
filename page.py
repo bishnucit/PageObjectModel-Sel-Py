@@ -16,6 +16,9 @@ class Page(object):
         
         
     def verify_page_title(self, title_regexp):
+        '''
+        Verify page title
+        '''
         if (re.search(title_regexp, self.selenium.get_title()) is None):
             raise Exception,'\r\nPage tile verification failed. Expected: %s; Actual:%s\r\n' %(title_regexp,self.selenium.get_title())
        
