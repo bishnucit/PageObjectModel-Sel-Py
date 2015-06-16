@@ -10,7 +10,7 @@ class Page(object):
         
     def __init__(self, selenium):
         '''
-        Constructor
+        Constructor of the class
         '''
         self.selenium = selenium
         
